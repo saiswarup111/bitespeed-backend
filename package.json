@@ -4,6 +4,7 @@
   "description": "Bitespeed Identity Reconciliation Service",
   "main": "dist/server.js",
   "scripts": {
+    "build": "tsc",
     "start": "ts-node src/server.ts",
     "dev": "nodemon src/server.ts"
   },
